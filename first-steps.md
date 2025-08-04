@@ -137,11 +137,11 @@ Save this then exit. Now when Ubuntu is forced to use Kali’s DNS, *dig faceboo
 
 If Wireshark is run for the requests and filtered for DNS and DNS over HTTPS, surfing to google.com shows the normal DNS request:
 
-![google dns](/images/censored-lab/google_dns.png)
+![google dns](/images/google_dns.png)
 
 bbc.com on the other hand, shows:
 
-![bbc dns](/images/censored-lab/bbc.png)
+![bbc dns](/images/bbc.png)
 
 What’s really interesting, this was done with DNS over HTTPS off in Firefox. If Privacy and Security settings are changed to use DNS over HTTPS instead, the sites can be accessed. To block this too, DNS over port 443 for all or most common DNS servers has to be blocked as above.
 
